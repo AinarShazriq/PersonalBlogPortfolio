@@ -1,156 +1,219 @@
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
 body{
-    font-family:Arial, sans-serif;
-    background:#f5f5f5;
+font-family:'Segoe UI', sans-serif;
+background:#fff8fb;
+color:#444;
 }
 
 /* Navigation */
 
 nav{
-    background:#222;
-    color:white;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:20px 50px;
+background:white;
+padding:20px 50px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
 }
 
 .logo{
-    font-size:24px;
-    font-weight:bold;
+font-size:28px;
+font-weight:bold;
+color:#d86ca4;
 }
 
 nav ul{
-    list-style:none;
-    display:flex;
+list-style:none;
+display:flex;
 }
 
 nav ul li{
-    margin-left:25px;
+margin-left:25px;
 }
 
 nav ul li a{
-    color:white;
     text-decoration:none;
+    color:#555;
+    font-weight:600;
 }
 
 nav ul li a:hover{
-    color:#00bfff;
+    color:#d86ca4;
 }
 
-/* Hero Section */
+/* Hero */
 
 .hero{
     text-align:center;
-    padding:120px 20px;
+    padding:80px 20px;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.hero img{
+width:220px;
+height:220px;
+border-radius:50%;
+object-fit:cover;
+border:6px solid #f8d6e6;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+margin-bottom:25px;
 }
 
 .hero h1{
-    font-size:50px;
+    font-size:40px;
+    color:#d86ca4;
     margin-bottom:20px;
 }
 
 .hero p{
+    max-width:800px;
     font-size:20px;
-    margin-bottom:30px;
+    line-height:1.8;
+    text-align:center;
+    margin:20px auto;
 }
 
-.hero img{
-    width:180px;
-    height:180px;
-    border-radius:50%;
-    object-fit:cover;
-    border:5px solid #007bff;
-    display:block;
-    margin:0 auto 20px auto;
-    box-shadow:0 4px 10px rgba(0,0,0,0.2);
-}
+/* Button */
 
 button{
-    background:#007bff;
+    margin-top:25px;
+    background:#d86ca4;
     color:white;
     border:none;
     padding:15px 30px;
-    border-radius:5px;
+    border-radius:30px;
     cursor:pointer;
 }
 
 button:hover{
-    background:#0056b3;
+    background:#c45891;
 }
 
+/* Skills */
+
+.skills-section{
+text-align:center;
+padding:60px 20px;
+}
+
+.skills-section h2{
+color:#d86ca4;
+margin-bottom:25px;
+}
+
+.skill-box{
+display:inline-block;
+padding:12px 20px;
+background:#ffe7f2;
+border-radius:30px;
+margin:8px;
+font-weight:600;
+}
+
+/* Cards */
+
+.blog-card,
+.contact-box{
+background:white;
+width:85%;
+margin:20px auto;
+padding:30px;
+border-radius:20px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.blog-card h2{
+color:#d86ca4;
+margin-bottom:10px;
+}
+
+/* Contact */
+
+.contact-box{
+max-width:700px;
+}
+
+.contact-box p{
+margin-bottom:10px;
+line-height:1.8;
+}
+
+/* Form */
+
+input,
+textarea{
+width:100%;
+padding:12px;
+border:1px solid #ddd;
+border-radius:10px;
+}
+
+/* Dark Mode */
+
 .dark-mode{
-    background:#121212;
+    background:#1f1f1f;
     color:white;
+}
+
+.dark-mode nav{
+    background:#2a2a2a;
+}
+
+.dark-mode .blog-card,
+.dark-mode .contact-box{
+    background:#333;
+    color:white;
+}
+
+.dark-mode .skill-box{
+    background:#d86ca4;
+    color:white;
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3{
+    color:#ff9ac8;
+}
+
+.dark-mode p{
+    color:white;
+}
+
+.dark-mode nav ul li a{
+    color:white;
+}
+
+.dark-mode .logo{
+    color:#ff9ac8;
 }
 
 /* Mobile */
 
 @media(max-width:768px){
 
-    nav{
-        flex-direction:column;
-    }
-
-    nav ul{
-        margin-top:10px;
-    }
-
-    .hero h1{
-        font-size:35px;
-    }
+nav{
+    flex-direction:column;
 }
 
-.blog-card{
-    background:white;
-    width:80%;
-    margin:20px auto;
-    padding:25px;
-    border-radius:10px;
-    box-shadow:0 2px 8px rgba(0,0,0,0.1);
-    text-align:left;
+nav ul{
+    margin-top:15px;
 }
 
-.blog-card h2{
-    margin-bottom:10px;
-    color:#007bff;
+.hero h1{
+    font-size:40px;
 }
 
-.contact-box{
-    background:white;
-    width:80%;
-    margin:auto;
-    padding:30px;
-    border-radius:10px;
-    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+.hero img{
+    width:180px;
+    height:180px;
 }
-
-input,
-textarea{
-    width:100%;
-    padding:12px;
-    border:1px solid #ccc;
-    border-radius:5px;
-}
-
-.skills-section{
-    margin-top:50px;
-}
-
-.skills-section h2{
-    margin-bottom:20px;
-}
-
-.skills-section p{
-    display:inline-block;
-    background:#007bff;
-    color:white;
-    padding:10px 15px;
-    border-radius:20px;
-    margin:5px;
 }
