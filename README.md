@@ -52,3 +52,7 @@ PersonalBlogPortfolio
 Ainar Shazriq
 
 Bachelor of Computer Science (Software Development)
+
+## Project Status
+
+Completed for Special Topics in Software Development individual project.
