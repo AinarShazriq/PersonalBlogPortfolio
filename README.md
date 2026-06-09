@@ -1,18 +1,53 @@
-# Personal Blog Portfolio
+# 🌸 Ainar Portfolio
 
-## Description
+## Project Overview
 
-This project is a personal blog portfolio website developed using HTML, CSS, and JavaScript. The website introduces the author, showcases personal information, blog posts, and contact details.
+Ainar Portfolio is a personal portfolio and blog website developed as part of the Special Topics in Software Development course. The website serves as a personal branding platform that showcases my background, technical skills, projects, career goals, and contact information.
+
+---
+
+## Objectives
+
+* Create a professional online portfolio.
+* Web development skills using HTML, CSS, and JavaScript.
+* Showcase personal projects and technical abilities.
+* Establish a personal brand for future career opportunities.
+
+---
 
 ## Features
 
-* Home Page
-* About Page
-* Blog Page
-* Contact Page
-* Responsive Design
-* Dark Mode Functionality
-* Personal Profile Section
+### 🏠 Home Page
+
+* Professional profile section
+* Personal introduction
+* Technical skills showcase
+* Portfolio highlights
+* Featured projects
+* Dark Mode toggle
+
+### 👩‍💻 About Page
+
+* Personal background
+* Education information
+* Technical skills
+* Personal strengths
+* Career goals
+
+### ✨ Blog Page
+
+* Personal learning journey
+* Passion for software development
+* Future career aspirations
+
+### 📧 Contact Page
+
+* Contact information
+* GitHub profile link
+* Contact form
+* Professional networking information
+
+---
 
 ## Technologies Used
 
@@ -20,6 +55,10 @@ This project is a personal blog portfolio website developed using HTML, CSS, and
 * CSS3
 * JavaScript
 * GitHub
+* GitHub Pages
+* Visual Studio Code
+
+---
 
 ## Folder Structure
 
@@ -34,18 +73,27 @@ PersonalBlogPortfolio
 * js/script.js
 * images/profile.jpg.png
 
-## How to Run
+---
 
-1. Download or clone the repository.
-2. Open index.html in a web browser.
-3. Navigate through the pages using the menu.
+## Featured Projects
 
-## Future Improvements
+### University Bus Tracking System
 
-* Add database integration
-* Add user authentication
-* Add comment system
-* Add blog management features
+A web-based transportation tracking platform that enables university students to monitor bus availability and view driver information in real time.
+
+### Athlete Tracking System for Sport School in Malaysia
+
+A platform developed for athletes and coaches to manage achievements, certificates, and performance records.
+
+---
+
+## Live Website
+
+GitHub Pages Link:
+
+https://ainarshazriq.github.io/PersonalBlogPortfolio/
+
+---
 
 ## Author
 
@@ -53,6 +101,6 @@ Ainar Shazriq
 
 Bachelor of Computer Science (Software Development)
 
-## Project Status
+Universiti Sultan Zainal Abidin (UniSZA)
 
-Completed for Special Topics in Software Development individual project.
+---
